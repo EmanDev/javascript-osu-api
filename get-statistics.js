@@ -1,6 +1,6 @@
 $.ajax({
             dataType: "json",
-            url: "https://osu.ppy.sh/api/get_user?u=8283257&k=bda01b101c1d25e0b737f2e90c3fe60be0a28b3f",
+            url: "https://cors-anywhere.herokuapp.com/http://emandev-osu.herokuapp.com/pp_raw/data.json", // CORS Bypass for Heroku APP
             success: function (data) {
                 var jsonString = JSON.stringify(data);
                 var jsonParsed = JSON.parse(jsonString);
