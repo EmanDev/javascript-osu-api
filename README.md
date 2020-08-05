@@ -3,7 +3,7 @@ A javascript file that uses a standard way of fetch API to get data from a custo
 
 ## get-statistics.json
 
-```json
+```javascript
 $.ajax({
     dataType: "json",
     url: "https://cors-anywhere.herokuapp.com/http://emandev-osu.herokuapp.com/pp_raw/data.json", // CORS Bypass for Heroku APP
